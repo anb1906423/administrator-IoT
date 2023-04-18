@@ -1,0 +1,35 @@
+.content {
+    padding: 0;
+}
+
+.content-item {
+
+    .content-body-render {
+        padding: 0 20px 0 0;
+    }
+}
+
+.wp-form {
+    padding        : 0 40px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+
+    form {
+        width: 50%;
+
+        div {
+            &:last-child {
+                padding-top    : 10px;
+            }
+        }
+    }
+
+    .item {
+        margin-bottom: 10px;
+
+        label {
+            margin-bottom: 6px;
+        }
+    }
+}

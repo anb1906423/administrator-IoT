@@ -1,0 +1,40 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import 'tippy.js/dist/tippy.css';
+
+@import './SideBar.scss';
+@import './ManagementAccount/ChiTietNhaTuyenDung.scss';
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --height-header         : 92px;
+    --height-sub-header     : 56px;
+    --main-color            : #f37021;
+    --sub-color             : #fbe9e7;
+    --white                 : white;
+    --black                 : #000;
+    --height-input-on-search: 40px;
+    --height-header-right   : 92px;
+}
+
+.layout {
+    position: relative;
+}
+
+.render-children-layout {
+    overflow  : auto;
+    max-height: 100vh;
+}
+
+.render-children {
+    margin-top: var(--height-header-right);
+}
